@@ -1,0 +1,25 @@
+## 购买域名
+- GoDaddy 
+ [ GoDaddy 优惠码 ](https://www.google.com/search?q=GoDaddy%20的优惠码)
+ 
+## 将独立域名与 GitHub Pages 的空间绑定
+- DNSpod  | A 的两条记录指向的ip地址是 GitHub Pages 的提供的 ip
+
+### GoDaddy 修改 DNS 地址
+- 更改 GoDaddy 的 Nameservers 为 DNSpod 的 Nameservers : f1g1ns1.dnspod.net 和 f1g1ns2.dnspod.net
+
+
+## 使用 GitHub Pages 建立博客
+### Fork 已设置好的仓库
+
+### 将独立域名与 GitHub Pages 的空间绑定
+点击 CNAME 将 cnfeat.com 改成你的域名
+
+### 更新个人博客信息配置
+- 博客名字及作者信息：_config.yml
+- 个人介绍页面：about.md
+- 代表作页面：milestone.md
+- 文章模板：blog.io/_posts/YYYY-MM-DD-how-to-write.md
+
+### 图床
+推荐使用七牛（10G空间，免费）。
